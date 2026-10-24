@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotionCraft - Fast Static Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-950 text-slate-100 font-['Plus_Jakarta_Sans'] min-h-screen">
+  <nav class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-20">
+    <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2 font-bold text-lg">
+        <i class="fa-solid fa-feather text-indigo-400"></i>
+        <span>NotionCraft Blog</span>
+      </div>
+      <a href="https://github.com/Shahabuddin-mahar/notion-static-blog-starter" class="text-xs bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700">GitHub Repo</a>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-4 py-12">
+    <div class="text-center max-w-xl mx-auto mb-12">
+      <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">Notion as Headless CMS</span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Engineering & Product Notes</h1>
+      <p class="text-sm text-slate-400 mt-2">Write posts inside your private Notion workspace, publish automatically.</p>
+    </div>
+
+    <div class="space-y-6">
+      <article class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-slate-700 transition">
+        <div class="flex items-center gap-2 text-xs text-indigo-400 font-semibold mb-2">
+          <span>ARCHITECTURES</span> • <span>5 MIN READ</span> • <span>OCT 24, 2026</span>
+        </div>
+        <h2 class="text-xl font-bold text-white hover:text-indigo-300 cursor-pointer">How We Scaled Micro-SaaS to $10k/mo with Zero Infrastructure Costs</h2>
+        <p class="text-sm text-slate-400 mt-2">A breakdown of serverless static sites, client-side SQLite, and direct payment webhooks.</p>
+      </article>
+
+      <article class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-slate-700 transition">
+        <div class="flex items-center gap-2 text-xs text-indigo-400 font-semibold mb-2">
+          <span>DEVELOPER TOOLS</span> • <span>3 MIN READ</span> • <span>OCT 20, 2026</span>
+        </div>
+        <h2 class="text-xl font-bold text-white hover:text-indigo-300 cursor-pointer">Why You Should Stop Over-Engineering Your MVP Landing Pages</h2>
+        <p class="text-sm text-slate-400 mt-2">The fastest way to validate product demand is shipping working code with simple Tailwind CSS.</p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
